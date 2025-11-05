@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -23,7 +23,7 @@ export default function Home() {
       cardStyle="gradient-bordered"
       primaryButtonStyle="flat"
       secondaryButtonStyle="glass"
-      showBlurBottom={true}
+      showBlurBottom="true"
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
@@ -249,12 +249,12 @@ export default function Home() {
           socialLinks={[
             {
               icon: Mail,
-              url: "mailto:info-coco@pelemix.com",
+              href: "mailto:info-coco@pelemix.com",
               ariaLabel: "Email us"
             },
             {
               icon: Globe,
-              url: "https://pelemix.com",
+              href: "https://pelemix.com",
               ariaLabel: "Visit our website"
             }
           ]}
