@@ -23,7 +23,7 @@ export default function Home() {
       cardStyle="gradient-bordered"
       primaryButtonStyle="flat"
       secondaryButtonStyle="glass"
-      showBlurBottom="true"
+      showBlurBottom={false}
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
@@ -49,7 +49,7 @@ export default function Home() {
           tagIcon={Leaf}
           imagePosition="right"
           imageSrc="https://images.pexels.com/photos/17741703/pexels-photo-17741703.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          imageAlt="Coconut coir agricultural substrate"
+          imageAlt="Close-up of a hand holding a coconut fiber planter pot in a garden setting, highlighting sustainable planting."
           buttons={[
             { text: "Explore Products", href: "products" },
             { text: "Learn More", href: "about" }
@@ -65,7 +65,7 @@ export default function Home() {
           tagIcon={Sprout}
           imagePosition="right"
           imageSrc="https://images.pexels.com/photos/348689/pexels-photo-348689.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          imageAlt="Sustainable farming practices"
+          imageAlt="Fresh hydroponic lettuce plants growing in an indoor farm setup, showcasing modern agriculture."
           bulletPoints={[
             {
               title: "Premium Quality",
@@ -100,19 +100,19 @@ export default function Home() {
               title: "Superior Water Retention",
               description: "Optimal moisture management for consistent plant growth and reduced water consumption",
               imageSrc: "https://images.pexels.com/photos/17741703/pexels-photo-17741703.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Agricultural grow bags with superior water retention"
+              imageAlt: "Close-up of a hand holding a coconut fiber planter pot in a garden setting, highlighting sustainable planting."
             },
             {
               title: "Enhanced Root Development",
               description: "Excellent drainage and aeration promote healthy root systems for vegetables and plants",
               imageSrc: "https://images.pexels.com/photos/7299952/pexels-photo-7299952.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Healthy vegetable growth in greenhouse"
+              imageAlt: "Close-up of leafy green tomato plants growing in a greenhouse."
             },
             {
               title: "100% Natural & Sustainable",
               description: "Made from renewable coconut coir, supporting eco-friendly agricultural practices",
               imageSrc: "https://images.pexels.com/photos/34558849/pexels-photo-34558849.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Sustainable farming practices"
+              imageAlt: "Two people drying colorful spices outdoors in Vietnam wearing conical hats."
             }
           ]}
         />
@@ -130,21 +130,21 @@ export default function Home() {
               name: "Coir Growing Substrate",
               price: "Contact for Pricing",
               imageSrc: "https://images.pexels.com/photos/33702958/pexels-photo-33702958.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Premium coir growing substrate"
+              imageAlt: "Close-up of coconut coir peat blocks on farmland in Omalur, India, used for gardening and agriculture."
             },
             {
               id: "2",
               name: "Professional Grow Bags",
               price: "Contact for Pricing",
               imageSrc: "https://images.pexels.com/photos/3265437/pexels-photo-3265437.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Professional agricultural grow bags"
+              imageAlt: "Vibrant green lettuce growing in a greenhouse with a farmer tending to the crops."
             },
             {
               id: "3",
               name: "Organic Growing Medium",
               price: "Contact for Pricing",
               imageSrc: "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Organic coconut coir growing medium"
+              imageAlt: "A young sapling held in hands symbolizes growth and sustainability."
             }
           ]}
         />
@@ -163,7 +163,7 @@ export default function Home() {
               role: "Commercial Greenhouse Manager",
               testimonial: "Pelemix substrates have transformed our operation. The consistency and quality are unmatched, leading to healthier plants and better yields.",
               imageSrc: "https://images.pexels.com/photos/7782379/pexels-photo-7782379.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "David Rodriguez, Commercial Greenhouse Manager"
+              imageAlt: "An elderly farmer with a warm smile leaning against a tree in a rural outdoor setting."
             },
             {
               id: "2",
@@ -171,7 +171,7 @@ export default function Home() {
               role: "Organic Farm Owner",
               testimonial: "The sustainability aspect combined with excellent growing results makes Pelemix our preferred choice for all our crops.",
               imageSrc: "https://images.pexels.com/photos/7728657/pexels-photo-7728657.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Sarah Thompson, Organic Farm Owner"
+              imageAlt: "A cheerful couple holds trays of plants, showcasing greenhouse horticulture."
             },
             {
               id: "3",
@@ -179,7 +179,7 @@ export default function Home() {
               role: "Agricultural Consultant",
               testimonial: "I recommend Pelemix to all my clients. The water retention and drainage balance is perfect for optimal plant growth.",
               imageSrc: "https://images.pexels.com/photos/4975355/pexels-photo-4975355.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Maria Santos, Agricultural Consultant"
+              imageAlt: "An elderly man wearing a black apron prunes plants in a green field during summer."
             },
             {
               id: "4",
@@ -187,7 +187,7 @@ export default function Home() {
               role: "Hydroponic Specialist",
               testimonial: "Outstanding product quality and excellent support. Pelemix has helped us achieve consistent results across all our growing operations.",
               imageSrc: "https://images.pexels.com/photos/7728657/pexels-photo-7728657.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "James Mitchell, Hydroponic Specialist"
+              imageAlt: "A cheerful couple holds trays of plants, showcasing greenhouse horticulture."
             }
           ]}
         />
@@ -200,7 +200,7 @@ export default function Home() {
           description="If you have any questions or inquiries, or require further information, please don't hesitate to reach out to us. Our dedicated team is ready to provide you with the support you need."
           tagIcon={Mail}
           imageSrc="https://images.pexels.com/photos/348689/pexels-photo-348689.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          imageAlt="Modern agriculture greenhouse"
+          imageAlt="Fresh hydroponic lettuce plants growing in an indoor farm setup, showcasing modern agriculture."
           mediaPosition="right"
           inputPlaceholder="Enter your email address"
           buttonText="Contact Us"
